@@ -6,7 +6,7 @@ function unionMass() {
   let arr = array1.concat(array2);
   function removeDuplicates(arr) {
     const obj = {},
-          out=[];
+          out = [];
     for (let i = 0; i < arr.length; i++) {
       let str = arr[i];
       obj[str] = true; 
