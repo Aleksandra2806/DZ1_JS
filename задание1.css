@@ -1,0 +1,21 @@
+div {
+    max-width: 110px;
+    font-size: 13px;
+}
+button {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+button:hover {
+    background: rgb(0, 119, 255);
+    color: aliceblue;
+    transition: background .2s linear, color .2s linear;
+}
+.dayOff {
+    font-weight: 700;
+}
+.today {
+    font-style: italic;
+}
+
