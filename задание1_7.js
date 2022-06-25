@@ -4,7 +4,7 @@ function deleteDouble() {
   const arr = ["php", "php", "css", "css", "script", "script", "html", "html", "java"];
   function removeDuplicates(arr) {
     const obj = {},
-          out=[];
+          out = [];
     for (let i = 0; i < arr.length; i++) {
       let str = arr[i];
       obj[str] = true; 
