@@ -10,7 +10,3 @@ function countryCity() {
     document.body.insertAdjacentHTML('beforeend', key + " - это " + obj[key] + '<br>'); 
   }
 }
-
-
-
-
