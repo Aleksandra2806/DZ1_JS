@@ -17,8 +17,3 @@ function deleteDouble() {
   let result = removeDuplicates(arr);
   document.body.insertAdjacentHTML('beforeend', result)
 }
-
-
-
-    
-  
