@@ -2,20 +2,20 @@
 
 function unionMass() {
   const array1 = [5, 2, 1, -10, 8];
-  const array2 = [5, 2, 1, -9, 3, 7];
-  let arr = array1.concat(array2);
-  function removeDuplicates(arr) {
+  const array2 = [5, 2, 1, -9, 3, 7]; 
+  const union = function(array1, array2) {
     const obj = {},
+          array3 = [];
+    const arr = array1.concat(array2);
           out = [];
     for (let i = 0; i < arr.length; i++) {
       let str = arr[i];
       obj[str] = true; 
     }
     for (i in obj) {
-      out.push(i);
+      array3.push(i);
     }
-    return out;
+    return array3;
   }
-  let result = removeDuplicates(arr);
-  document.body.insertAdjacentHTML('beforeend', result)
+  document.body.insertAdjacentHTML('beforeend', union(array1, array2))
 }
