@@ -6,7 +6,7 @@ function dateWeek() {
   const days = () => {
     week.forEach((item, i) => {
       let newdiv = document.createElement('div'); 
-      if (i === +todayDay.getDay()-1) { 
+      if (i === +todayDay.getDay() - 1) { 
         newdiv.classList.add('today'); 
         newdiv.textContent = week[i]; 
       } else {
